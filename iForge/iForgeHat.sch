@@ -4790,7 +4790,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <instance part="U2" gate="G$1" x="45.72" y="132.08"/>
 <instance part="U3" gate="G$1" x="124.46" y="149.86"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="JP1" gate="A" x="27.94" y="58.42" rot="R180"/>
+<instance part="JP1" gate="A" x="109.22" y="53.34" rot="R180"/>
 <instance part="R1" gate="G$1" x="228.6" y="147.32" rot="R90"/>
 <instance part="R2" gate="G$1" x="236.22" y="147.32" rot="R90"/>
 <instance part="R3" gate="G$1" x="243.84" y="147.32" rot="R90"/>
@@ -4822,7 +4822,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <instance part="C5" gate="G$1" x="15.24" y="152.4"/>
 <instance part="U$18" gate="G$1" x="15.24" y="162.56" rot="R180"/>
 <instance part="R11" gate="G$1" x="15.24" y="134.62" rot="R180"/>
-<instance part="J17" gate="G$1" x="243.84" y="48.26"/>
+<instance part="J17" gate="G$1" x="165.1" y="50.8"/>
 <instance part="J18" gate="G$1" x="15.24" y="12.7"/>
 </instances>
 <busses>
@@ -4861,18 +4861,18 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="35"/>
-<wire x1="30.48" y1="78.74" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
-<label x="38.1" y="78.74" size="1.778" layer="95"/>
+<wire x1="111.76" y1="73.66" x2="124.46" y2="73.66" width="0.1524" layer="91"/>
+<label x="119.38" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="16"/>
-<wire x1="22.86" y1="53.34" x2="7.62" y2="53.34" width="0.1524" layer="91"/>
-<label x="7.62" y="53.34" size="1.778" layer="95"/>
+<wire x1="104.14" y1="48.26" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
+<label x="88.9" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
-<wire x1="22.86" y1="35.56" x2="7.62" y2="35.56" width="0.1524" layer="91"/>
-<label x="7.62" y="35.56" size="1.778" layer="95"/>
+<wire x1="104.14" y1="30.48" x2="88.9" y2="30.48" width="0.1524" layer="91"/>
+<label x="88.9" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="PGND1@4"/>
@@ -4896,28 +4896,28 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="21"/>
-<wire x1="30.48" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
-<label x="38.1" y="60.96" size="1.778" layer="95"/>
+<wire x1="111.76" y1="55.88" x2="124.46" y2="55.88" width="0.1524" layer="91"/>
+<label x="119.38" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="27"/>
-<wire x1="30.48" y1="68.58" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
-<label x="38.1" y="68.58" size="1.778" layer="95"/>
+<wire x1="111.76" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
+<label x="119.38" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="11"/>
-<wire x1="30.48" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
-<label x="38.1" y="48.26" size="1.778" layer="95"/>
+<wire x1="111.76" y1="43.18" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
+<label x="119.38" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="7"/>
-<wire x1="30.48" y1="43.18" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
-<label x="38.1" y="43.18" size="1.778" layer="95"/>
+<wire x1="111.76" y1="38.1" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
+<label x="119.38" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="32"/>
-<wire x1="22.86" y1="73.66" x2="7.62" y2="73.66" width="0.1524" layer="91"/>
-<label x="7.62" y="73.66" size="1.778" layer="95"/>
+<wire x1="104.14" y1="68.58" x2="88.9" y2="68.58" width="0.1524" layer="91"/>
+<label x="88.9" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="GND"/>
@@ -4983,13 +4983,13 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="4"/>
-<wire x1="246.38" y1="60.96" x2="254" y2="60.96" width="0.1524" layer="91"/>
-<label x="246.38" y="60.96" size="1.778" layer="95"/>
+<wire x1="167.64" y1="63.5" x2="175.26" y2="63.5" width="0.1524" layer="91"/>
+<label x="167.64" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="3"/>
-<wire x1="231.14" y1="60.96" x2="223.52" y2="60.96" width="0.1524" layer="91"/>
-<label x="223.52" y="60.96" size="1.778" layer="95"/>
+<wire x1="152.4" y1="63.5" x2="144.78" y2="63.5" width="0.1524" layer="91"/>
+<label x="144.78" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -5122,42 +5122,42 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <net name="3V3" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="40"/>
-<wire x1="22.86" y1="83.82" x2="7.62" y2="83.82" width="0.1524" layer="91"/>
-<label x="7.62" y="83.82" size="1.778" layer="95"/>
+<wire x1="104.14" y1="78.74" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
+<label x="88.9" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="24"/>
-<wire x1="22.86" y1="63.5" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
-<label x="7.62" y="63.5" size="1.778" layer="95"/>
+<wire x1="104.14" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
+<label x="88.9" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="2"/>
-<wire x1="246.38" y1="63.5" x2="254" y2="63.5" width="0.1524" layer="91"/>
-<label x="246.38" y="63.5" size="1.778" layer="95"/>
+<wire x1="167.64" y1="66.04" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
+<label x="167.64" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="39"/>
-<wire x1="30.48" y1="83.82" x2="43.18" y2="83.82" width="0.1524" layer="91"/>
-<label x="38.1" y="83.82" size="1.778" layer="95"/>
+<wire x1="111.76" y1="78.74" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
+<label x="119.38" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="37"/>
-<wire x1="30.48" y1="81.28" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
-<label x="38.1" y="81.28" size="1.778" layer="95"/>
+<wire x1="111.76" y1="76.2" x2="124.46" y2="76.2" width="0.1524" layer="91"/>
+<label x="119.38" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="63.5" x2="223.52" y2="63.5" width="0.1524" layer="91"/>
-<label x="223.52" y="63.5" size="1.778" layer="95"/>
+<wire x1="152.4" y1="66.04" x2="144.78" y2="66.04" width="0.1524" layer="91"/>
+<label x="144.78" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="38"/>
-<wire x1="22.86" y1="81.28" x2="7.62" y2="81.28" width="0.1524" layer="91"/>
-<label x="7.62" y="81.28" size="1.778" layer="95"/>
+<wire x1="104.14" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
+<label x="88.9" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -5175,8 +5175,8 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <net name="SCL" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="36"/>
-<wire x1="22.86" y1="78.74" x2="7.62" y2="78.74" width="0.1524" layer="91"/>
-<label x="7.62" y="78.74" size="1.778" layer="95"/>
+<wire x1="104.14" y1="73.66" x2="88.9" y2="73.66" width="0.1524" layer="91"/>
+<label x="88.9" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SCL"/>
@@ -5194,20 +5194,20 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <net name="GPIO17" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="30"/>
-<wire x1="22.86" y1="71.12" x2="7.62" y2="71.12" width="0.1524" layer="91"/>
-<label x="7.62" y="71.12" size="1.778" layer="95"/>
+<wire x1="104.14" y1="66.04" x2="88.9" y2="66.04" width="0.1524" layer="91"/>
+<label x="88.9" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="18"/>
-<wire x1="246.38" y1="43.18" x2="254" y2="43.18" width="0.1524" layer="91"/>
-<label x="246.38" y="43.18" size="1.778" layer="95"/>
+<wire x1="167.64" y1="45.72" x2="175.26" y2="45.72" width="0.1524" layer="91"/>
+<label x="167.64" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO27" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="28"/>
-<wire x1="22.86" y1="68.58" x2="7.62" y2="68.58" width="0.1524" layer="91"/>
-<label x="7.62" y="68.58" size="1.778" layer="95"/>
+<wire x1="104.14" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
+<label x="88.9" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="BIN2"/>
@@ -5218,111 +5218,111 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <net name="GPIO22" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="26"/>
-<wire x1="22.86" y1="66.04" x2="7.62" y2="66.04" width="0.1524" layer="91"/>
-<label x="7.62" y="66.04" size="1.778" layer="95"/>
+<wire x1="104.14" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
+<label x="88.9" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="23"/>
-<wire x1="231.14" y1="35.56" x2="223.52" y2="35.56" width="0.1524" layer="91"/>
-<label x="223.52" y="35.56" size="1.778" layer="95"/>
+<wire x1="152.4" y1="38.1" x2="144.78" y2="38.1" width="0.1524" layer="91"/>
+<label x="144.78" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO10" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="22"/>
-<wire x1="22.86" y1="60.96" x2="7.62" y2="60.96" width="0.1524" layer="91"/>
-<label x="7.62" y="60.96" size="1.778" layer="95"/>
+<wire x1="104.14" y1="55.88" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
+<label x="88.9" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="11"/>
-<wire x1="231.14" y1="50.8" x2="223.52" y2="50.8" width="0.1524" layer="91"/>
-<label x="223.52" y="50.8" size="1.778" layer="95"/>
+<wire x1="152.4" y1="53.34" x2="144.78" y2="53.34" width="0.1524" layer="91"/>
+<label x="144.78" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO9" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="20"/>
-<wire x1="22.86" y1="58.42" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
-<label x="7.62" y="58.42" size="1.778" layer="95"/>
+<wire x1="104.14" y1="53.34" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
+<label x="88.9" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="10"/>
-<wire x1="246.38" y1="53.34" x2="254" y2="53.34" width="0.1524" layer="91"/>
-<label x="246.38" y="53.34" size="1.778" layer="95"/>
+<wire x1="167.64" y1="55.88" x2="175.26" y2="55.88" width="0.1524" layer="91"/>
+<label x="167.64" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO11" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="18"/>
-<wire x1="22.86" y1="55.88" x2="7.62" y2="55.88" width="0.1524" layer="91"/>
-<label x="7.62" y="55.88" size="1.778" layer="95"/>
+<wire x1="104.14" y1="50.8" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
+<label x="88.9" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="12"/>
-<wire x1="246.38" y1="50.8" x2="254" y2="50.8" width="0.1524" layer="91"/>
-<label x="246.38" y="50.8" size="1.778" layer="95"/>
+<wire x1="167.64" y1="53.34" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
+<label x="167.64" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ID_SD" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="14"/>
-<wire x1="22.86" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
-<label x="7.62" y="50.8" size="1.778" layer="95"/>
+<wire x1="104.14" y1="45.72" x2="88.9" y2="45.72" width="0.1524" layer="91"/>
+<label x="88.9" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO5" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="12"/>
-<wire x1="22.86" y1="48.26" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
-<label x="7.62" y="48.26" size="1.778" layer="95"/>
+<wire x1="104.14" y1="43.18" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
+<label x="88.9" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="6"/>
-<wire x1="246.38" y1="58.42" x2="254" y2="58.42" width="0.1524" layer="91"/>
-<label x="246.38" y="58.42" size="1.778" layer="95"/>
+<wire x1="167.64" y1="60.96" x2="175.26" y2="60.96" width="0.1524" layer="91"/>
+<label x="167.64" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO6" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="10"/>
-<wire x1="22.86" y1="45.72" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
-<label x="7.62" y="45.72" size="1.778" layer="95"/>
+<wire x1="104.14" y1="40.64" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
+<label x="88.9" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="7"/>
-<wire x1="231.14" y1="55.88" x2="223.52" y2="55.88" width="0.1524" layer="91"/>
-<label x="223.52" y="55.88" size="1.778" layer="95"/>
+<wire x1="152.4" y1="58.42" x2="144.78" y2="58.42" width="0.1524" layer="91"/>
+<label x="144.78" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO13" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="8"/>
-<wire x1="22.86" y1="43.18" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
-<label x="7.62" y="43.18" size="1.778" layer="95"/>
+<wire x1="104.14" y1="38.1" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
+<label x="88.9" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="14"/>
-<wire x1="246.38" y1="48.26" x2="254" y2="48.26" width="0.1524" layer="91"/>
-<label x="246.38" y="48.26" size="1.778" layer="95"/>
+<wire x1="167.64" y1="50.8" x2="175.26" y2="50.8" width="0.1524" layer="91"/>
+<label x="167.64" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO19" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="6"/>
-<wire x1="22.86" y1="40.64" x2="7.62" y2="40.64" width="0.1524" layer="91"/>
-<label x="7.62" y="40.64" size="1.778" layer="95"/>
+<wire x1="104.14" y1="35.56" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
+<label x="88.9" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="20"/>
-<wire x1="246.38" y1="40.64" x2="254" y2="40.64" width="0.1524" layer="91"/>
-<label x="246.38" y="40.64" size="1.778" layer="95"/>
+<wire x1="167.64" y1="43.18" x2="175.26" y2="43.18" width="0.1524" layer="91"/>
+<label x="167.64" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO26" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="4"/>
-<wire x1="22.86" y1="38.1" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
-<label x="7.62" y="38.1" size="1.778" layer="95"/>
+<wire x1="104.14" y1="33.02" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
+<label x="88.9" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="BIN1"/>
@@ -5410,8 +5410,8 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="19"/>
-<wire x1="30.48" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
-<label x="38.1" y="58.42" size="1.778" layer="95"/>
+<wire x1="111.76" y1="53.34" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
+<label x="119.38" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO24" class="0">
@@ -5422,147 +5422,147 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="23"/>
-<wire x1="30.48" y1="63.5" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
-<label x="38.1" y="63.5" size="1.778" layer="95"/>
+<wire x1="111.76" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
+<label x="119.38" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO14" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="33"/>
-<wire x1="30.48" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
-<label x="38.1" y="76.2" size="1.778" layer="95"/>
+<wire x1="111.76" y1="71.12" x2="124.46" y2="71.12" width="0.1524" layer="91"/>
+<label x="119.38" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="15"/>
-<wire x1="231.14" y1="45.72" x2="223.52" y2="45.72" width="0.1524" layer="91"/>
-<label x="223.52" y="45.72" size="1.778" layer="95"/>
+<wire x1="152.4" y1="48.26" x2="144.78" y2="48.26" width="0.1524" layer="91"/>
+<label x="144.78" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO15" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="31"/>
-<wire x1="30.48" y1="73.66" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
-<label x="38.1" y="73.66" size="1.778" layer="95"/>
+<wire x1="111.76" y1="68.58" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
+<label x="119.38" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="16"/>
-<wire x1="246.38" y1="45.72" x2="254" y2="45.72" width="0.1524" layer="91"/>
-<label x="246.38" y="45.72" size="1.778" layer="95"/>
+<wire x1="167.64" y1="48.26" x2="175.26" y2="48.26" width="0.1524" layer="91"/>
+<label x="167.64" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO18" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="29"/>
-<wire x1="30.48" y1="71.12" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
-<label x="38.1" y="71.12" size="1.778" layer="95"/>
+<wire x1="111.76" y1="66.04" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
+<label x="119.38" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="19"/>
-<wire x1="231.14" y1="40.64" x2="223.52" y2="40.64" width="0.1524" layer="91"/>
-<label x="223.52" y="40.64" size="1.778" layer="95"/>
+<wire x1="152.4" y1="43.18" x2="144.78" y2="43.18" width="0.1524" layer="91"/>
+<label x="144.78" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO23" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="25"/>
-<wire x1="30.48" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
-<label x="38.1" y="66.04" size="1.778" layer="95"/>
+<wire x1="111.76" y1="60.96" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
+<label x="119.38" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="24"/>
-<wire x1="246.38" y1="35.56" x2="254" y2="35.56" width="0.1524" layer="91"/>
-<label x="246.38" y="35.56" size="1.778" layer="95"/>
+<wire x1="167.64" y1="38.1" x2="175.26" y2="38.1" width="0.1524" layer="91"/>
+<label x="167.64" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO8" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="17"/>
-<wire x1="30.48" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
-<label x="38.1" y="55.88" size="1.778" layer="95"/>
+<wire x1="111.76" y1="50.8" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
+<label x="119.38" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="9"/>
-<wire x1="231.14" y1="53.34" x2="223.52" y2="53.34" width="0.1524" layer="91"/>
-<label x="223.52" y="53.34" size="1.778" layer="95"/>
+<wire x1="152.4" y1="55.88" x2="144.78" y2="55.88" width="0.1524" layer="91"/>
+<label x="144.78" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO7" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="15"/>
-<wire x1="30.48" y1="53.34" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
-<label x="38.1" y="53.34" size="1.778" layer="95"/>
+<wire x1="111.76" y1="48.26" x2="124.46" y2="48.26" width="0.1524" layer="91"/>
+<label x="119.38" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="8"/>
-<wire x1="246.38" y1="55.88" x2="254" y2="55.88" width="0.1524" layer="91"/>
-<label x="246.38" y="55.88" size="1.778" layer="95"/>
+<wire x1="167.64" y1="58.42" x2="175.26" y2="58.42" width="0.1524" layer="91"/>
+<label x="167.64" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ID_SC" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="13"/>
-<wire x1="30.48" y1="50.8" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
-<label x="38.1" y="50.8" size="1.778" layer="95"/>
+<wire x1="111.76" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
+<label x="119.38" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO12" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="9"/>
-<wire x1="30.48" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
-<label x="38.1" y="45.72" size="1.778" layer="95"/>
+<wire x1="111.76" y1="40.64" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
+<label x="119.38" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="13"/>
-<wire x1="231.14" y1="48.26" x2="223.52" y2="48.26" width="0.1524" layer="91"/>
-<label x="223.52" y="48.26" size="1.778" layer="95"/>
+<wire x1="152.4" y1="50.8" x2="144.78" y2="50.8" width="0.1524" layer="91"/>
+<label x="144.78" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO16" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="5"/>
-<wire x1="30.48" y1="40.64" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
-<label x="38.1" y="40.64" size="1.778" layer="95"/>
+<wire x1="111.76" y1="35.56" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
+<label x="119.38" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="17"/>
-<wire x1="231.14" y1="43.18" x2="223.52" y2="43.18" width="0.1524" layer="91"/>
-<label x="223.52" y="43.18" size="1.778" layer="95"/>
+<wire x1="152.4" y1="45.72" x2="144.78" y2="45.72" width="0.1524" layer="91"/>
+<label x="144.78" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO20" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="3"/>
-<wire x1="30.48" y1="38.1" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
-<label x="38.1" y="38.1" size="1.778" layer="95"/>
+<wire x1="111.76" y1="33.02" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
+<label x="119.38" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="21"/>
-<wire x1="231.14" y1="38.1" x2="223.52" y2="38.1" width="0.1524" layer="91"/>
-<label x="223.52" y="38.1" size="1.778" layer="95"/>
+<wire x1="152.4" y1="40.64" x2="144.78" y2="40.64" width="0.1524" layer="91"/>
+<label x="144.78" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO21" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
-<wire x1="30.48" y1="35.56" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
-<label x="38.1" y="35.56" size="1.778" layer="95"/>
+<wire x1="111.76" y1="30.48" x2="124.46" y2="30.48" width="0.1524" layer="91"/>
+<label x="119.38" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="22"/>
-<wire x1="246.38" y1="38.1" x2="254" y2="38.1" width="0.1524" layer="91"/>
-<label x="246.38" y="38.1" size="1.778" layer="95"/>
+<wire x1="167.64" y1="40.64" x2="175.26" y2="40.64" width="0.1524" layer="91"/>
+<label x="167.64" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO4" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="34"/>
-<wire x1="22.86" y1="76.2" x2="7.62" y2="76.2" width="0.1524" layer="91"/>
-<label x="7.62" y="76.2" size="1.778" layer="95"/>
+<wire x1="104.14" y1="71.12" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
+<label x="88.9" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="5"/>
-<wire x1="231.14" y1="58.42" x2="223.52" y2="58.42" width="0.1524" layer="91"/>
-<label x="223.52" y="58.42" size="1.778" layer="95"/>
+<wire x1="152.4" y1="60.96" x2="144.78" y2="60.96" width="0.1524" layer="91"/>
+<label x="144.78" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VM" class="0">
