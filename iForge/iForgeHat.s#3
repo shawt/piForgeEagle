@@ -5055,6 +5055,16 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <wire x1="15.24" y1="149.86" x2="15.24" y2="147.32" width="0.1524" layer="91"/>
 <junction x="15.24" y="147.32"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="A" pin="40"/>
+<wire x1="104.14" y1="78.74" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
+<label x="88.9" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J17" gate="G$1" pin="2"/>
+<wire x1="167.64" y1="66.04" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
+<label x="167.64" y="66.04" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -5121,19 +5131,9 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 </net>
 <net name="3V3" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="40"/>
-<wire x1="104.14" y1="78.74" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
-<label x="88.9" y="78.74" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="A" pin="24"/>
 <wire x1="104.14" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
 <label x="88.9" y="58.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J17" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="66.04" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
-<label x="167.64" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="0">
