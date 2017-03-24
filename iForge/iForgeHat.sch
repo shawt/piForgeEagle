@@ -4671,6 +4671,168 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 </deviceset>
 </devicesets>
 </library>
+<library name="TIVoltage">
+<packages>
+<package name="TS3B">
+<smd name="1" x="-2.54" y="-8.2804" dx="1.016" dy="2.6924" layer="1"/>
+<smd name="2" x="0" y="-8.2804" dx="1.016" dy="2.6924" layer="1"/>
+<smd name="3" x="2.54" y="-8.2804" dx="1.016" dy="2.6924" layer="1"/>
+<smd name="4" x="0" y="0" dx="10.4648" dy="10.8712" layer="1"/>
+<wire x1="-2.0574" y1="-5.08" x2="-3.0226" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="-3.0226" y1="-5.08" x2="-3.0226" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="-3.0226" y1="-9.271" x2="-2.0574" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="-2.0574" y1="-9.271" x2="-2.0574" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="0.4826" y1="-5.08" x2="-0.4826" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="-0.4826" y1="-5.08" x2="-0.4826" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="-0.4826" y1="-9.271" x2="0.4826" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="0.4826" y1="-9.271" x2="0.4826" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="3.0226" y1="-5.08" x2="2.0574" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="-5.08" x2="2.0574" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="-9.271" x2="3.0226" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="3.0226" y1="-9.271" x2="3.0226" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="-5.207" y1="-5.08" x2="5.207" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="5.207" y1="-5.08" x2="5.207" y2="5.08" width="0.1524" layer="51"/>
+<wire x1="5.207" y1="5.08" x2="-5.207" y2="5.08" width="0.1524" layer="51"/>
+<wire x1="-5.207" y1="5.08" x2="-5.207" y2="-5.08" width="0.1524" layer="51"/>
+<text x="-3.1242" y="-5.461" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<wire x1="-3.0226" y1="-5.7658" x2="-3.0226" y2="-6.5786" width="0.1524" layer="21"/>
+<wire x1="-0.4826" y1="-5.7658" x2="-0.4826" y2="-6.5786" width="0.1524" layer="21"/>
+<wire x1="2.0574" y1="-5.7658" x2="2.0574" y2="-6.5786" width="0.1524" layer="21"/>
+<wire x1="-2.0574" y1="-5.7658" x2="-2.0574" y2="-6.5786" width="0.1524" layer="21"/>
+<wire x1="0.4826" y1="-5.7658" x2="0.4826" y2="-6.5786" width="0.1524" layer="21"/>
+<wire x1="3.0226" y1="-5.7658" x2="3.0226" y2="-6.5786" width="0.1524" layer="21"/>
+<text x="-5.0292" y="-8.9154" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="TS3B-M">
+<smd name="1" x="-2.54" y="-8.3312" dx="1.0668" dy="2.9972" layer="1"/>
+<smd name="2" x="0" y="-8.3312" dx="1.0668" dy="2.9972" layer="1"/>
+<smd name="3" x="2.54" y="-8.3312" dx="1.0668" dy="2.9972" layer="1"/>
+<smd name="4" x="0" y="0.0508" dx="10.5156" dy="11.176" layer="1"/>
+<wire x1="-2.0574" y1="-5.08" x2="-3.0226" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="-3.0226" y1="-5.08" x2="-3.0226" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="-3.0226" y1="-9.271" x2="-2.0574" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="-2.0574" y1="-9.271" x2="-2.0574" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="0.4826" y1="-5.08" x2="-0.4826" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="-0.4826" y1="-5.08" x2="-0.4826" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="-0.4826" y1="-9.271" x2="0.4826" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="0.4826" y1="-9.271" x2="0.4826" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="3.0226" y1="-5.08" x2="2.0574" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="-5.08" x2="2.0574" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="-9.271" x2="3.0226" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="3.0226" y1="-9.271" x2="3.0226" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="-5.207" y1="-5.08" x2="5.207" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="5.207" y1="-5.08" x2="5.207" y2="5.08" width="0.1524" layer="51"/>
+<wire x1="5.207" y1="5.08" x2="-5.207" y2="5.08" width="0.1524" layer="51"/>
+<wire x1="-5.207" y1="5.08" x2="-5.207" y2="-5.08" width="0.1524" layer="51"/>
+<text x="-3.1242" y="-5.461" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<wire x1="-3.0226" y1="-5.8674" x2="-3.0226" y2="-6.477" width="0.1524" layer="21"/>
+<wire x1="-0.4826" y1="-5.8674" x2="-0.4826" y2="-6.477" width="0.1524" layer="21"/>
+<wire x1="2.0574" y1="-5.8674" x2="2.0574" y2="-6.477" width="0.1524" layer="21"/>
+<wire x1="-2.0574" y1="-5.8674" x2="-2.0574" y2="-6.477" width="0.1524" layer="21"/>
+<wire x1="0.4826" y1="-5.8674" x2="0.4826" y2="-6.477" width="0.1524" layer="21"/>
+<wire x1="3.0226" y1="-5.8674" x2="3.0226" y2="-6.477" width="0.1524" layer="21"/>
+<text x="-5.0292" y="-8.9662" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="TS3B-L">
+<smd name="1" x="-2.54" y="-8.2296" dx="0.9652" dy="2.3876" layer="1"/>
+<smd name="2" x="0" y="-8.2296" dx="0.9652" dy="2.3876" layer="1"/>
+<smd name="3" x="2.54" y="-8.2296" dx="0.9652" dy="2.3876" layer="1"/>
+<smd name="4" x="0" y="-0.0508" dx="10.414" dy="10.5664" layer="1"/>
+<wire x1="-2.0574" y1="-5.08" x2="-3.0226" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="-3.0226" y1="-5.08" x2="-3.0226" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="-3.0226" y1="-9.271" x2="-2.0574" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="-2.0574" y1="-9.271" x2="-2.0574" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="0.4826" y1="-5.08" x2="-0.4826" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="-0.4826" y1="-5.08" x2="-0.4826" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="-0.4826" y1="-9.271" x2="0.4826" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="0.4826" y1="-9.271" x2="0.4826" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="3.0226" y1="-5.08" x2="2.0574" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="-5.08" x2="2.0574" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="-9.271" x2="3.0226" y2="-9.271" width="0.1524" layer="51"/>
+<wire x1="3.0226" y1="-9.271" x2="3.0226" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="-5.207" y1="-5.08" x2="5.207" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="5.207" y1="-5.08" x2="5.207" y2="5.08" width="0.1524" layer="51"/>
+<wire x1="5.207" y1="5.08" x2="-5.207" y2="5.08" width="0.1524" layer="51"/>
+<wire x1="-5.207" y1="5.08" x2="-5.207" y2="-5.08" width="0.1524" layer="51"/>
+<text x="-3.1242" y="-5.461" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<wire x1="-3.0226" y1="-5.6896" x2="-3.0226" y2="-6.6802" width="0.1524" layer="21"/>
+<wire x1="-0.4826" y1="-5.6896" x2="-0.4826" y2="-6.6802" width="0.1524" layer="21"/>
+<wire x1="2.0574" y1="-5.6896" x2="2.0574" y2="-6.6802" width="0.1524" layer="21"/>
+<wire x1="-2.0574" y1="-5.6896" x2="-2.0574" y2="-6.6802" width="0.1524" layer="21"/>
+<wire x1="0.4826" y1="-5.6896" x2="0.4826" y2="-6.6802" width="0.1524" layer="21"/>
+<wire x1="3.0226" y1="-5.6896" x2="3.0226" y2="-6.6802" width="0.1524" layer="21"/>
+<text x="-5.0292" y="-8.8646" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-3.2766" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+</packages>
+<symbols>
+<symbol name="LM1085IS-5.0">
+<pin name="ADJ/GND" x="2.54" y="0" length="middle" direction="pas"/>
+<pin name="VOUT" x="2.54" y="-2.54" length="middle" direction="out"/>
+<pin name="VIN" x="63.5" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="4" x="63.5" y="0" length="middle" direction="pas" rot="R180"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="58.42" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="58.42" y1="-7.62" x2="58.42" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="58.42" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<text x="28.2956" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="27.6606" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LM1085ISX-5.0/NOPB">
+<gates>
+<gate name="A" symbol="LM1085IS-5.0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TS3B">
+<connects>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="ADJ/GND" pad="1"/>
+<connect gate="A" pin="VIN" pad="3"/>
+<connect gate="A" pin="VOUT" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="LM1085ISX5.0NOPB" constant="no"/>
+<attribute name="VENDOR" value="National Semiconductor" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TS3B-M" package="TS3B-M">
+<connects>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="ADJ/GND" pad="1"/>
+<connect gate="A" pin="VIN" pad="3"/>
+<connect gate="A" pin="VOUT" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="LM1085ISX5.0NOPB" constant="no"/>
+<attribute name="VENDOR" value="National Semiconductor" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TS3B-L" package="TS3B-L">
+<connects>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="ADJ/GND" pad="1"/>
+<connect gate="A" pin="VIN" pad="3"/>
+<connect gate="A" pin="VOUT" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="LM1085ISX5.0NOPB" constant="no"/>
+<attribute name="VENDOR" value="National Semiconductor" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4778,6 +4940,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <part name="J17" library="SparkFun-Connectors" deviceset="CONN_12X2" device=""/>
 <part name="J18" library="SparkFun-Connectors" deviceset="POWER_JACK" device="SMD" value="5.5x2.1mm Barrel"/>
 <part name="FRAME2" library="frames" deviceset="FRAME_A_L" device=""/>
+<part name="U$25" library="TIVoltage" deviceset="LM1085ISX-5.0/NOPB" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4824,6 +4987,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <instance part="R11" gate="G$1" x="15.24" y="134.62" rot="R180"/>
 <instance part="J17" gate="G$1" x="165.1" y="50.8"/>
 <instance part="J18" gate="G$1" x="15.24" y="12.7"/>
+<instance part="U$25" gate="A" x="10.16" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -5055,6 +5219,16 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <wire x1="15.24" y1="149.86" x2="15.24" y2="147.32" width="0.1524" layer="91"/>
 <junction x="15.24" y="147.32"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="A" pin="40"/>
+<wire x1="104.14" y1="78.74" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
+<label x="88.9" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J17" gate="G$1" pin="2"/>
+<wire x1="167.64" y1="66.04" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
+<label x="167.64" y="66.04" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -5121,19 +5295,9 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 </net>
 <net name="3V3" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="40"/>
-<wire x1="104.14" y1="78.74" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
-<label x="88.9" y="78.74" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="A" pin="24"/>
 <wire x1="104.14" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
 <label x="88.9" y="58.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J17" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="66.04" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
-<label x="167.64" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="0">
